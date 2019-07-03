@@ -1,0 +1,3 @@
+---
+#main tasks file for ANSIBLE-ASA role
+- include_tasks: rule_{{action}}.yml

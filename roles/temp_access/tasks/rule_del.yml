@@ -1,0 +1,5 @@
+- name: del ACL
+  asa_config:
+    lines:
+      - no access-list {{ ifname }} extended permit ip host {{ip}} any
+    provider: "{{ cli }}"

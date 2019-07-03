@@ -1,0 +1,11 @@
+---
+acl_rules: |
+      description SR-2662107
+      network-object 195.82.136.0 255.255.255.0
+      network-object 195.82.137.0 255.255.255.0
+      network-object 195.239.171.178 255.255.255.248
+      network-object 195.218.130.98 255.255.255.240
+      network-object 95.66.196.0 255.255.255.0
+      network-object 94.230.143.193 255.255.255.192
+      network-object 80.82.164.0 255.255.255.0
+      network-object 89.249.28.178 255.255.255.240

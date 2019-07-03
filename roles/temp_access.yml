@@ -1,0 +1,6 @@
+--- #master playbooks
+- hosts: "{{host}}"
+  gather_facts: false
+  connection: local
+  roles:
+    - role: temp_access

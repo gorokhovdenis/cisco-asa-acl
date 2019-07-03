@@ -17,9 +17,13 @@ Example
 ```
 bash temp_access.sh 
 enter action (add|del)
-del
+add
 enter host (vld|M0|baz|perm|ufa|trubo|atz|vmz)
 vld
 enter ip
 10.224.224.224
 ```
+
+Example result
+----------------
+access-list inside extended permit ip host 10.224.224.224 any 

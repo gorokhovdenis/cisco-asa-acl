@@ -1,0 +1,13 @@
+---
+- name: add ACL
+  asa_config:
+    lines:
+      - access-list {{ ifname }} extended permit ip host {{ip}} any
+    provider: "{{ cli }}"
+
+# - pause:
+#     minutes: 5
+#- pause: minutes=1
+
+
+
