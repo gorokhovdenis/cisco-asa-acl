@@ -1,5 +1,0 @@
----
-ifname: inside
-cli:
-  username: "ciscoasa"
-  password: "{{ password }}"
