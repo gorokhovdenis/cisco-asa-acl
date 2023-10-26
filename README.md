@@ -18,7 +18,7 @@ Example
 bash temp_access.sh 
 enter action (add|del)
 add
-enter host (vld|M0|baz|perm|ufa|trubo|atz|vmz)
+enter host
 vld
 enter ip
 10.224.224.224
